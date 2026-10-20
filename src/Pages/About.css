@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.containera{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.containera1{
+    background-color: transparent;
+    width: 25%;
+    
+}
+.C-A-P1{
+    color: gold;
+    margin: 0px;
+    padding: 0px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.section-lable{
+    display: flex;
+    color: #da9520;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+.gold-line{
+    width: 25px;
+    height: 2px;
+    background-color: #da9828 ;
+    display: inline-block;
+}
+.C-A-H1{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(4, 29, 53);
+     font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+.containera2{
+    height: 18rem;
+    width: 40%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+}
+.containera3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 18rem;
+    width: 20%;
+    background-color: rgb(238, 232, 232);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.c-a3-d1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.c-a3-h{
+    margin: 0px;
+    padding: 0px;
+}
+.c-a3-p{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(87, 85, 85);
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.value{
+    background-color: rgb(243, 240, 235);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.V1{
+    width: 24%;
+    margin-top: 4px;
+}
+.V1-p{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 1rem;
+}
+.V1-H{
+    color:rgb(4, 29, 53);
+    margin: 0px;
+    padding: 0px;
+}
+.V2{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+width: 20%;
+border-left: 1px solid rgb(233, 191, 114);
+}
+.V2-H{
+    color: rgb(4, 29, 53);
+    margin: 0px;
+    margin-left: 1.4rem;
+    padding: 0px;
+}
+.V2-P{
+    margin: 0px;
+    margin-left: 1rem;
+    margin-top: 3px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.team{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px
+    ;
+    align-items: center;
+    background-color: white;
+}
+.T1{
+    width: 20%s;
+    margin-left: 1rem;
+}
+.T1-H{
+color: rgb(7, 40, 71);
+margin: 0px;
+margin-top: 6px;
+padding: 0px;
+}
+.T1-P1{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+}
+.T2-I{
+    height: 7rem;
+    width: 10rem;
+
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.T2{
+    background-color: rgb(255, 242, 242);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 20%;
+    margin-top: 3rem;
+}
+.T2-P1{
+    margin: 0px;
+    margin-left: 6px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.T2-P2{
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(49, 48, 48);
+    margin: 0px;
+    padding: 0px;
+    margin-left: 6px;
+}
+.T2-IC{
+    margin-left: 6px;
+    margin-top: 4px;
+    margin-bottom: 25px;
+}

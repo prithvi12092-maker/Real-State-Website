@@ -1,0 +1,193 @@
+.hero2 {
+    width: 100%;
+    height: 14rem;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.head2 {
+    margin-left: 5rem;
+}
+
+.head2p {
+    color: rgb(206, 199, 199);
+    margin: 0px;
+    margin-top: 6px;
+    padding: 0px;
+    font-weight: 650;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.Isth1 {
+    color: rgb(221, 214, 214);
+}
+
+.h-sp {
+    height: 3px;
+    margin-bottom: 0.6rem;
+    width: 60px;
+    background-color: #ffa200;
+    display: block;
+}
+
+.contact{
+    background-color: rgb(1, 20, 37);
+    display: flex;
+    justify-content: space-around;
+}
+.C1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.C1-B1 {
+    display: flex;
+    align-items: center;
+}
+
+.c1-i-p1 {
+    color: rgb(214, 207, 207);
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    margin-bottom: 2px;
+    
+}
+.c1-i-p2{
+    color: rgb(214, 208, 208);
+     margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    margin-bottom: 2px;
+    
+}
+.c1-i-p3{
+    color: rgb(160, 154, 154);
+     margin: 0px;
+    padding: 0px;
+    font-size: 11px;
+    font-weight: 650;
+}
+.C1-iteam{
+    margin-left: 1rem;
+}
+.phone{
+    border-radius: 50%;
+    border: 1px solid orange;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.C1-P{
+    color: wheat;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 1rem;
+}
+
+.c1-img{
+    height: 8rem;
+    width: 16rem;
+    border-radius: 5px;
+    border: 1px solid rgb(14, 40, 63);
+    position: relative;
+    margin-bottom: 2rem;
+
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.c1-img-p{
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.C2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 3rem;
+    
+}
+.c2-h{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 1rem;
+
+}
+.c2-p{
+    color: rgb(180, 175, 175);
+    margin: 0px;
+    padding: 0pxs;
+    
+}
+.c2-inp1{
+    color: rgb(189, 183, 183);
+    background-color: rgb(2, 19, 34);
+    height: 1.7rem;
+    width: 10rem;
+    border: 0.5px solid rgb(70, 67, 67);
+    border-radius: 5px;
+}
+.c2-inp2{
+    color: rgb(189, 183, 183);
+    background-color: rgb(2, 19, 34);
+    height: 1.7rem;
+    width: 10rem;
+    border: 0.5px solid rgb(70, 67, 67);
+    border-radius: 5px;
+    margin-left: 8px;
+}
+.c2-inp3{
+    color: rgb(189, 183, 183);
+    background-color: rgb(2, 19, 34);
+    height: 1.7rem;
+    width: 27rem;
+    border: 0.5px solid rgb(70, 67, 67);
+    border-radius: 5px;
+}
+.c2-inp4{
+    color: rgb(189, 183, 183);
+    background-color: rgb(2, 19, 34);
+    height: 1.7rem;
+    width: 27rem;
+    border: 0.5px solid rgb(70, 67, 67);
+    border-radius: 5px;
+}
+.c2-inp5{
+    color: rgb(189, 183, 183);
+    background-color: rgb(2, 19, 34);
+    height: 7rem;
+    width: 27rem;
+    border: 0.5px solid rgb(70, 67, 67);
+    border-radius: 5px;
+
+}
+.C2-MAIN{
+    background-color: rgb(4, 19, 31);
+    border: 0.3px solid rgb(73, 71, 71);
+    border-radius: 10px;
+    margin: 2rem;
+}
+

@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Original+Surfer&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Original+Surfer&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.hero {
+    width: 100%;
+    height: 26rem;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.head {
+    margin-left: 5rem;
+}
+
+.headp {
+    color: white;
+    margin: 0px;
+    margin-top: 6px;
+    padding: 0px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.headbtn {
+    margin: 5px;
+    background-color: transparent;
+    height: 1.7rem;
+    width: 5rem;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid wheat;
+    border-radius: 4px;
+}
+
+.items {
+    height: 200px;
+    width: 20%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.items:hover {
+    transform: scale(1.07);
+}
+
+.productcard {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 60%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+
+
+.Isth1 {
+    font-size: 3rem;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1;
+}
+
+.IIndh1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 3rem;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1;
+}
+
+@media (max-width: 480px) {
+    .Isth1 {
+        font-size: 30px;
+    }
+
+    .IIndh1 {
+        font-size: 30px;
+        margin-bottom: 4px;
+    }
+
+    .head {
+        margin-left: 2rem;
+    }
+
+    .headp {
+        font-size: 15px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+}
+
+.pcimg {
+    height: 8.3rem;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.pch3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.pcp1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #141414;
+}
+
+.pcp2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 4px;
+    margin-bottom: 7px;
+}
+
+.pcbtn {
+    margin: 0px;
+    padding: 0px;
+}
+
+.pc-location {
+    display: flex;
+    gap: 4px;
+    margin-top: 3px;
+}
+
+.pc-price {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 0.7rem;
+}
+
+.pch {
+    margin: 0px;
+    padding: 0px;
+}
+.pch:hover{
+   transform: translateY(-1px);
+   box-shadow: 0px 5px 10px rgba(184, 32, 32, 0.25);
+}
+.pch:active{
+    transform: scale(0.87);
+    box-shadow: none;
+}
+
+.trust {
+    display: flex;
+    justify-content: space-evenly;
+    height: 5rem;
+    background-color: rgb(255, 247, 247);
+    align-items: center;
+    padding: 1rem;
+
+
+}
+
+.t1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.t1p1 {
+    margin: 0px;
+    margin-bottom: 4px;
+    padding: 0px;
+
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.t1p2 {
+    margin: 0px;
+    margin-bottom: 4px;
+    padding: 0px;
+    font-style: normal;
+    color: rgb(44, 43, 43);
+    font-size: 16px;
+
+}
+
+.t1b1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.info {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.f1 {
+    color: black;
+    margin-left: 2rem;
+}
+
+.f2 {
+    color: rgb(26, 25, 25);
+    margin-right: 2rem;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.property-slider {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    background-color: #fafaf8;
+
+}
+
+
+
+.property-card {
+    width: 13rem;
+    height: 20rem;
+    flex: 0 0 320px;
+    border: 0.7px solid rgb(230, 224, 224);
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    background-color: white;
+}
+
+.property-card:hover {
+    transform: scale(1.07);
+}
+
+.lox {
+    background-color: whitesmoke;
+}
+
+.info2h {
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 2rem;
+    padding-top: 2rem;
+}
+
+.info2p {
+    margin: 0px;
+    margin-top: 4px;
+    margin-left: 2rem;
+    padding: 0px;
+    color: rgb(24, 23, 23);
+}
+
+.pcimg2 {
+    height: 10rem;
+    width: 13rem;
+    border-radius: 5px;
+
+}
+
+.property-slider2 {
+    display: flex;
+    gap: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    background-color: #fafaf8;
+}
+
+.product-card2 {
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+    height: 11rem;
+    width: 13rem;
+    position: relative;
+}
+
+.product-card2:hover {
+    transform: scale(1.07);
+}
+
+.pc2p {
+    position: absolute;
+    bottom: 17px;
+    left: 6px;
+    color: white;
+    font-weight: bold;
+}
+
+.category-btn {
+    margin-left: 0.5rem;
+    margin-top: 5px;
+    width: 5rem;
+    font-size: 12px;
+    font-weight: 550;
+    padding: 5px;
+    background-color: transparent;
+    border: 0.3px solid white;
+    color: rgb(219, 210, 210);
+    border-radius: 4px;
+}
+.search {
+    height: 1.7rem;
+    margin-top: 1rem;
+    width: 25rem;
+    border-radius: 5px;
+    color: black;
+    font-weight: 500;
+}
+@media (max-width: 480px) {
+
+    .category-btn {
+       height: 1.6rem;
+        width: 3.5rem;
+        font-size: 8px;
+    }
+    .search{
+        width: 80%;
+
+    }
+
+}

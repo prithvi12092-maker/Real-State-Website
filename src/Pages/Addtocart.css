@@ -1,0 +1,90 @@
+.addtci{
+    height: 9rem;
+    width: 11rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+.large{
+    background-color: rgb(1,20,37);
+    padding: 7rem;
+}
+.addtocart-main{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(1,20,37);
+    border: 0.5px solid rgb(68, 65, 65);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.addtocart-btn{
+    height: 1rem;
+    width: 3rem;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+    background-color: rgb(209, 146, 30);
+    color: rgb(10, 10, 73);
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+}
+.addtocart-name{
+    color: rgb(223, 216, 216);
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 3px;
+}
+.addtocart-location{
+    color: rgb(194, 185, 185);
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.location-div{
+    display: flex;
+    gap: 5px;
+    margin-top: 4px;
+}
+.addtocart-price{
+    color: rgb(209, 143, 19);
+    font-weight: 600;
+    font-size: 16.7px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+}
+.size1-addtocart{
+    display: flex;
+    align-items: center;
+}
+.size1-adct-p1{
+    margin: 0px;
+    margin-left: 5px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+.size1-adct-p2{
+    margin: 0px;
+    margin-left: 5px;
+    padding: 0px;
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(213, 228, 241);
+}
+.size1-adct-item{
+    margin-left: 8px;
+}
+.size-addtocart{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}

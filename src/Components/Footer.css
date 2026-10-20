@@ -1,0 +1,137 @@
+.footer1container{
+    background-color: rgb(4, 29, 53);
+    display: flex;
+    justify-content: space-around;
+}
+.footer1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+.footer1h1{
+    font-size: 20px;
+    margin-left: 4px;
+}
+.footer1me1{
+    display: flex;
+    align-items: center;
+}
+.footer1p{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #c3d0e6;
+    
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+width: 25%;
+margin-top: 20px;
+}
+.footer2p1{
+    color: white;
+    margin: 0px;
+    margin-bottom: 4px;
+    font-weight: bold
+    
+}
+.footer2p2{
+    color:#c3d0e6;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 1px;
+    
+}
+.link{
+    text-decoration: none;
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 25%;
+    margin-top: 20px;
+}
+.footer3p1{
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+.footer3b1{
+    display: flex;
+    gap: 1rem;
+    margin: 0px;
+    padding: 0px;
+
+}
+.footer3b1i{
+    margin: 0px;
+    padding: 0px;
+}
+.footer3b1p{
+    color: #c3d0e6;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    text-align: left;
+}
+.footer3b2{
+    display: flex;
+    gap: 1rem;
+    margin: 0px;
+    padding: 0px;
+}
+.footer3b2p{
+    color: #c3d0e6;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+
+}
+.footer3b2i{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer3b3{
+    display: flex;
+    gap: 1rem;
+}
+.f3b3p{
+    margin: 0px;
+    padding: 0px;
+    color: #c3d0e6;
+}
+.footer3b4{
+    display: flex;
+    gap: 1rem;
+}
+.footer2cont{
+    background-color: rgb(4,29,53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+}
+.f2c2{
+    width: 94%;
+    border-top: 0.7px solid #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.f2c2p{
+    margin: 0px;
+    margin-top: 2px;
+    padding: 0px;
+    color: #c3d0e6;
+    font-size: 13px;
+    font-weight: bold
+}
